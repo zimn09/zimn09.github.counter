@@ -1,0 +1,80 @@
+body{
+    background-image: linear-gradient(45deg,rgb(51, 1, 133),rgb(23, 23, 184),rgb(7, 238, 7));
+    height:100vh;
+    width:100%;
+}
+#container{
+    width:500px;
+    height:500px;
+    border:1px solid black;
+    margin:auto;
+    background-color:gray;
+    box-shadow: 5px,5px,3px;
+    text-align:center;
+}
+h2{
+    font-size:35px;
+}
+h1{
+    font-size:50px;
+}
+#plus{
+    width:100px;
+    height:50px;
+    font-size:20px;
+    border:1px solid black;
+    background-color:tomato;
+    color:black;
+    cursor:pointer;
+}
+#plus:hover{
+    background-color: red;
+}
+#minus{
+    width:100px;
+    height:50px;
+    font-size:20px;
+    border:1px solid black;
+    background-color:rgb(115, 115, 233);
+    color:black;
+    cursor:pointer;
+}
+#minus:hover{
+    background-color: rgb(61, 61, 235);
+}
+#inpt{
+    width:200px;
+    height:30px;
+    font-size:20px;
+    border:1px solid black;
+    background-color:gray;
+    color:black;
+    cursor:text;
+}
+#inpt:hover{
+    background-color:rgb(255, 255, 255);
+}
+#submit{
+    width:100px;
+    height:50px;
+    font-size:20px;
+    border:1px solid black;
+    background-color:rgb(2, 250, 2);
+    color:black;
+    cursor:pointer;
+}
+#submit:hover{
+    background-color: green;
+}
+#reset{
+    width:100px;
+    height:50px;
+    font-size:20px;
+    border:1px solid white;
+    background-color:black;
+    color:white;
+    cursor:pointer;
+}
+#reset:hover{
+    background-color: gray;
+}
